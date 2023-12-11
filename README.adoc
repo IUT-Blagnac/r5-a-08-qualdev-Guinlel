@@ -26,6 +26,6 @@ Feature: is_it_friday_yet
 ---
 
 .Exemple d'image insérée en asciidoc
-image::artifacts-r303.svg[width=80%]
+image::screen_resultat_td1_devqual.png[width=80%]
 
 == TP2...
