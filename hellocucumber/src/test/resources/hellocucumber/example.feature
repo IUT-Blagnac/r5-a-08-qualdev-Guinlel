@@ -1,3 +1,5 @@
+package dojo;
+
 Feature: An example
 
   Scenario: The example
