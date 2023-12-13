@@ -5,11 +5,11 @@ Feature: Cocktail Ordering
   Scenario Outline: : Creating an empty order
     Given "<from>" who wants to buy a drink
     When  an order is declared for "<to>"
-    Then  there is no cocktail in the order
+    Then  there is <nbCocktails> cocktail in the order
 
   Examples:
     | from | to | nbCocktails |
-    | Romeo | Romeo | 0       |
+    | Romeo | Romeo |  0      |
     | Juliette | Juliette | 0 |
 
 

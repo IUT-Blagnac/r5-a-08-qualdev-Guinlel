@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/hellocucumber/pom.xml" />
         <option value="$PROJECT_DIR$/cucumber_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/tp3Cucumber/pom.xml" />
       </list>
     </option>
   </component>

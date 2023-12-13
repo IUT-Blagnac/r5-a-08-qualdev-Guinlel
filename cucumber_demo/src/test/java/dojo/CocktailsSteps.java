@@ -24,10 +24,10 @@ public class CocktailsSteps {
         order.declareTarget(target);
     }
 
-    @Then("there is no cocktail in the order")
-    public void there_is_no_cocktail_in_the_order() {
+    @Then("there is {int} cocktail in the order")
+    public void there_is_no_cocktail_in_the_order(int nbCocktails) {
         // Write code here that turns the phrase above into concrete actions
         List<String> cocktails = order.getCocktails();
-        assertEquals(0,cocktails.size());
+        assertEquals( nbCocktails, cocktails.size());
     }
 }

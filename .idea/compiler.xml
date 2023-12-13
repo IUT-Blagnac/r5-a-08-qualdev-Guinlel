@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hellocucumber" />
+        <module name="tp3Cucumber" />
         <module name="cucumber_demo" />
       </profile>
     </annotationProcessing>
